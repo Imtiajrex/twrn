@@ -1,4 +1,5 @@
 # Tailwind React Native Classnames 🏄‍♂️
+## This is a fork of [twrnc](https://github.com/jaredh159/tailwind-react-native-classnames/),
 
 > A simple, expressive API for TailwindCSS + React Native, written in TypeScript
 
