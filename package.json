@@ -1,8 +1,8 @@
 {
-  "name": "twrnc",
-  "version": "4.2.0",
+  "name": "twrnc-next",
+  "version": "4.2.1",
   "description": "simple, expressive API for tailwindcss + react-native",
-  "author": "Jared Henderson <jared@netrivet.com>",
+  "author": "Jared Henderson <jared@netrivet.com>, Imtiaj Bin Aoual <imtiajbinaoual@gmail.com>",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "main": "dist/cjs/index.js",
@@ -70,13 +70,13 @@
     "ts-jest": "^29.1.1",
     "typescript": "^5.3.3"
   },
-  "homepage": "https://github.com/jaredh159/tailwind-react-native-classnames",
+  "homepage": "https://github.com/Imtiajrex/twrn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaredh159/tailwind-react-native-classnames.git"
+    "url": "https://github.com/Imtiajrex/twrn.git"
   },
   "bugs": {
-    "url": "https://github.com/jaredh159/tailwind-react-native-classnames/issues"
+    "url": "https://github.com/Imtiajrex/twrn/issues"
   },
   "keywords": [
     "tailwind",
