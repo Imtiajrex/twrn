@@ -108,9 +108,9 @@ export type Direction =
   | 'BottomRight';
 
 export type Style = {
-  [key: string]: string[] | string | number | boolean | Style | {
+  [key: string]: string | number | boolean | Style | (({
     [key: string]: string | number | boolean | string[]
-  }[]
+  } | string)[])
 };
 
 export enum ConfigType {
