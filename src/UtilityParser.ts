@@ -295,6 +295,39 @@ export default class UtilityParser {
       }
     }
 
+    if (this.consumePeeked(`translate-y-`)) {
+      const translateY = h.parseNumericValue(this.rest, this.context);
+      if (translateY) {
+        return h.complete({
+          transform: [{ translateY: translateY[0] }]
+        });
+      }
+    }
+    if (this.consumePeeked(`translate-x-`)) {
+      const translateX = h.parseNumericValue(this.rest, this.context);
+      if (translateX) {
+        return h.complete({
+          transform: [{ translateX: translateX[0] }]
+        });
+      }
+    }
+    if (this.consumePeeked(`rotate-`)) {
+      const rotate = h.parseNumericValue(this.rest, this.context);
+      if (rotate) {
+        return h.complete({
+          transform: [{ rotate: rotate[0] }]
+        });
+      }
+    }
+    if (this.consumePeeked(`scale-`)) {
+      const scale = h.parseNumericValue(this.rest, this.context);
+      if (scale) {
+        return h.complete({
+          transform: [{ scale: scale[0] }]
+        });
+      }
+    }
+
     h.warn(`\`${this.rest}\` unknown or invalid utility`);
     return null;
   }
