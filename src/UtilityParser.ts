@@ -323,7 +323,7 @@ export default class UtilityParser {
       const scale = h.parseNumericValue(this.rest, this.context);
       if (scale) {
         return h.complete({
-          transform: [{ scale: scale[0] }]
+          transform: [{ scale: scale[0] / 100 }]
         });
       }
     }
