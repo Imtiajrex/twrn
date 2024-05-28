@@ -315,7 +315,7 @@ export default class UtilityParser {
       const rotate = h.parseNumericValue(this.rest, this.context);
       if (rotate) {
         return h.complete({
-          transform: [{ rotate: rotate[0] }]
+          transform: [{ rotate: `${rotate[0]}deg` }]
         });
       }
     }

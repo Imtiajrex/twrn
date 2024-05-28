@@ -1,6 +1,6 @@
 {
   "name": "twrnc-next",
-  "version": "4.2.2",
+  "version": "4.2.4",
   "description": "simple, expressive API for tailwindcss + react-native",
   "author": "Jared Henderson <jared@netrivet.com>, Imtiaj Bin Aoual <imtiajbinaoual@gmail.com>",
   "module": "dist/esm/index.js",
